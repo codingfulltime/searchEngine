@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+    height: calc(100vh - 64px);
+}
+
+.navMenu-btn {
+    width: 40px;
+    display: none;
+}
+
+.line {
+    height: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 640px){
+    .main-nav {
+        display: none;
+    }
+
+    .navMenu-btn {
+        display: block;
+    }
+}

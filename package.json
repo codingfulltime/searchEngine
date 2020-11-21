@@ -1,0 +1,24 @@
+{
+  "name": "clurio",
+  "version": "1.0.0",
+  "description": "clurio website",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.8",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/styles.css -o dist/styles.css"
+  },
+  "keywords": [
+    "search",
+    "engine",
+    "bible",
+    "bible",
+    "scriptures"
+  ],
+  "author": "Jeffry Jimenez <jeffrey17jt@gmail.com>",
+  "license": "MIT"
+}
